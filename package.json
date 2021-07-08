@@ -1,0 +1,27 @@
+{
+  "name": "vrtsample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "screenshot:master": "npx jest --config=test/config/jest.e2e.ja.master.config.js",
+    "screenshot:test": "npx jest --config=test/config/jest.e2e.ja.test.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "jestSonar": {
+    "reportPath": "output",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-jenkins-reporter": "^1.0.2",
+    "jest-playwright-preset": "^1.7.0",
+    "moment": "^2.29.1",
+    "playwright": "^1.12.3",
+    "reg-cli": "^0.17.0"
+  },
+  "dependencies": {
+  }
+}
